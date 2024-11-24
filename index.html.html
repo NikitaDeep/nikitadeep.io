@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my portfolio - Homepage</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin-left: 1rem;
+        }
+        .hero {
+            background-image: url('file:///C:/Users/nikde/Downloads/pj.webp');
+            background-size: cover;
+            background-position: center right;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+            color: rgb(249, 249, 249);
+            padding-left: 5%;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        .cta-button {
+            background-color: #042c59;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #357abd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Welcome to my portfolio</h2>
+      </header>
+      <main>
+          <section class="hero">
+              <h1>Hi! I'm Nikita Deep</h1>
+              <p>Let's bring life to your datset</p>
+              <p>Analyzing and visualizing data to make better and informed business decisions</p>
+              <a href="#about" class="cta-button">About Me</a>
+          </section>
+      </main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .about-section {
+            padding: 60px 0;
+            background-color: #080809;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            color: white
+        }
+        .about-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('file:///C:/Users/nikde/Downloads/dkk.avif');
+            opacity: 0.1;
+            z-index: 0;
+            color: white
+        }
+        .about-heading {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .about-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            object-fit: cover;
+        }
+        .about-text {
+            max-width: 600px;
+            font-weight: bold;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+<section class="about-section">
+    <div class="container">
+        <h2 class="text-center about-heading">About</h2>
+        <div class="text-center">
+            <img src= file:///C:/Users/nikde/Downloads/hjjk.jpg alt="Profile Picture" class="about-image">
+        </div>
+        <div class="about-text">
+            <p>
+                Hello! I'm Nikita Deep, with the passion of turning numbers into narratives. With one year of experience in Data analytics and human resource domain. I specialize in creating insightful dashboards.
+            </p>
+            <p>
+                I believe in the philosphy of every spreadsheet tells a story - you just need to know how to read in between the lines. And I am constantly pushing the boundaries of what's possible with the data and I am always excited to take on new challenges and collaborate on innovative projects. 
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Projects</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+        <div class="col">
+          <div class="card h-100">
+            <img src="file:///C:/Users/nikde/Downloads/hgl.jpeg" class="card-img-top" alt="Financial Statement Analysis">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Stock Market Trend Analysis & Prediction</h5>
+              <p class="card-text">Tools Used: Python, Mysql, Machine learning algorithms </p>
+              <div class="mt-auto">
+                <a href="https://github.com/yourusername/nyce-taxi" class="btn btn-primary me-2">About the project</a>
+                <a href="https://https://github.com/DeepNikita" class="btn btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="file:///C:/Users/nikde/Downloads/hospital.jpeg" class="card-img-top" alt="Vehicle Shield: Comprehensive Automotive Security Analytics Initiative">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Hospital Readmission Prediction</h5>
+              <p class="card-text">Tools Used: Python, Machine Learning Algoritms, Power Bi.</p>
+              <div class="mt-auto">
+                <a href="#" class="btn btn-primary me-2">Blog Post</a>
+                <a href="#" class="btn btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="file:///C:/Users/nikde/Downloads/india.jpeg" class="card-img-top" alt="Project 3">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">3 D Population density</h5>
+              <p class="card-text">R Programming language, Stastistical Analysis.</p>
+              <div class="mt-auto">
+                <a href="#" class="btn btn-primary me-2">Blog Post</a>
+                <a href="#" class="btn btn-secondary">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="file:///C:/Users/nikde/Downloads/bc.jpeg" class="card-img-top" alt="Project 4">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Sentiment Anaysis</h5>
+                <p class="card-text">EDA, Python, NLP, Text Analysis.</p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-primary me-2">About the project...</a>
+                  <a href="#" class="btn btn-secondary">Source Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="file:///C:/Users/nikde/Downloads/fa.webp" class="card-img-top" alt="Project 4">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Healthcare Analysis</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget nunc lobortis mattis aliquam faucibus.</p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-primary me-2">Blog Post</a>
+                  <a href="#" class="btn btn-secondary">Source Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="file:///C:/Users/nikde/Downloads/clv.webp" class="card-img-top" alt="Project 4">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Customer Lifetime Value Analysis and prediction</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget nunc lobortis mattis aliquam faucibus.</p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-primary me-2">Blog Post</a>
+                  <a href="#" class="btn btn-secondary">Source Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/projects/3.jpg" class="card-img-top" alt="Project 4">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Project 4</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget nunc lobortis mattis aliquam faucibus.</p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-primary me-2">Blog Post</a>
+                  <a href="#" class="btn btn-secondary">Source Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Skills</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="images/skills/1.png" class="card-img-top mx-auto mt-3" alt="Python" style="width: 64px; height: 64px;">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget nunc lobortis mattis aliquam faucibus.</p>
+              <a href="#" class="btn btn-primary mt-auto">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="images/skills/2.png" class="card-img-top mx-auto mt-3" alt="Data Visualization" style="width: 64px; height: 64px;">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Data Visualization</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget nunc lobortis mattis aliquam faucibus.</p>
+              <a href="#" class="btn btn-primary mt-auto">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="images/skills/3.png" class="card-img-top mx-auto mt-3" alt="SQL" style="width: 64px; height: 64px;">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">SQL</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget nunc lobortis mattis aliquam faucibus.</p>
+              <a href="#" class="btn btn-primary mt-auto">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="images/skills/4.png" class="card-img-top mx-auto mt-3" alt="Data Storytelling" style="width: 64px; height: 64px;">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Data Storytelling</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget nunc lobortis mattis aliquam faucibus.</p>
+              <a href="#" class="btn btn-primary mt-auto">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="py-5 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Me</h2>
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
+          <div class="d-flex align-items-center justify-content-center">
+            <i class="bi bi-envelope-fill me-2 fs-4"></i>
+            <span>deepnikita063@gmail.com</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="d-flex align-items-center justify-content-center">
+            <i class="bi bi-telephone-fill me-2 fs-4"></i>
+            <span>9155884336</span>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <a href="#" class="btn btn-pink rounded-circle mx-2 mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn">
+            <img src="icons/linkedin.png" alt="LinkedIn" width="24" height="24">
+          </a>
+          <a href="deepnikita063@gmail.com" class="btn btn-pink rounded-circle mx-2 mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+            <img src="icons/twitter.png" alt="Twitter" width="24" height="24">
+          </a>
+          <a href="#" class="btn btn-pink rounded-circle mx-2 mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+            <img src="icons/github.png" alt="GitHub" width="24" height="24">
+          </a>
+          <a href="#" class="btn btn-pink rounded-circle mx-2 mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Medium">
+            <img src="icons/medium.png" alt="Medium" width="24" height="24">
+          </a>
+          <a href="#" class="btn btn-pink rounded-circle mx-2 mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="YouTube">
+            <img src="icons/youtube.png" alt="YouTube" width="24" height="24">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <style>
+  .btn-pink {
+    background-color: pink;
+    width: 48px;
+    height: 48px;
+    padding: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-pink:hover {
+    background-color: #ff69b4;
+    transform: scale(1.1);
+  }
+  </style>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  });
+  </script>
+  <!-- Navigation Bar HTML -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Welcome to my portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- CSS for smooth scrolling and active link highlighting -->
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    padding-top: 56px; /* Adjust this value based on your navbar height */
+  }
+  
+  .navbar {
+    transition: all 0.4s;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000;
+    position: relative;
+  }
+  
+  .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover::after,
+  .navbar-nav .nav-link.active::after {
+    width: 100%;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-nav .nav-link::after {
+      display: none;
+    }
+  }
+  </style>
+  
+  <!-- JavaScript for smooth scrolling and active link highlighting -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  
+    // Active link highlighting
+    window.addEventListener('scroll', function() {
+      let scrollPosition = window.scrollY;
+      document.querySelectorAll('section').forEach(section => {
+        if (scrollPosition >= section.offsetTop - 60 && scrollPosition < (section.offsetTop + section.offsetHeight - 60)) {
+          document.querySelectorAll('.nav-link').forEach(link => {
+            if (link.getAttribute('href') === '#' + section.id) {
+              link.classList.add('active');
+            } else {
+              link.classList.remove('active');
+            }
+          });
+        }
+      });
+    });
+  });
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
